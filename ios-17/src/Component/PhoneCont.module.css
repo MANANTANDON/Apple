@@ -1,0 +1,109 @@
+:root {
+  --se-color1: #027fff;
+}
+
+.se1 {
+  /* border: 2px solid green; */
+  margin: auto;
+  width: 97%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 20px;
+}
+
+.se2 {
+  color: var(--se-color1);
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  margin-left: 40px;
+}
+
+.se3 {
+  border-radius: 30px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.se4 {
+  /* border: 1px solid orange; */
+
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.se5 {
+  /* border: 1px solid orangered; */
+
+  width: 60%;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+.se5 img {
+  margin-left: 50px;
+}
+
+.se6 {
+  /* border: 1px solid chocolate; */
+
+  padding: 40px;
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color: var(--se-color1);
+}
+
+.se7 {
+  /* border: 1px solid black; */
+
+  display: grid;
+  place-content: center;
+}
+
+.se8 {
+  /* border: 1px solid orange; */
+
+  width: 25vw;
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+
+  margin-top: 140px;
+}
+
+.se9 {
+  /* border: 2px solid pink; */
+
+  position: absolute;
+  margin: 760px 0 0 1330px;
+  background-color: #86868b;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  font-size: 2.5rem;
+  font-family: "SF Pro Rounded";
+  cursor: pointer;
+}
+
+.se10 {
+  padding-bottom: 7px;
+}

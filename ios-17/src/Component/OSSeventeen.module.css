@@ -1,0 +1,160 @@
+:root {
+  --color: #f95c30;
+}
+
+.oss1 {
+  margin: auto;
+  height: 650px;
+  width: 600px;
+  margin-top: 10vh;
+
+  border-radius: 35px;
+  overflow: hidden;
+  background-image: url("../Assets/wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-size: 682px 820px;
+
+  padding: 30px;
+}
+
+.oss2,
+.oss11 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  width: fit-content;
+  margin: 10px 0 0 10px;
+  position: absolute;
+}
+
+.oss3,
+.oss11 {
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.oss4 {
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  border-radius: 12px;
+  padding: 3px 11px;
+
+  border: 1px solid white;
+  width: fit-content;
+}
+
+.oss5,
+.oss13 {
+  color: white;
+  /* border: 2px solid white; */
+  margin: auto;
+  width: 500px;
+  margin-top: 40%;
+}
+
+.oss7 {
+  /* border: 2px solid green; */
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
+    "SF Pro Rounded";
+}
+
+.oss8 {
+  border-radius: 100%;
+  border: none;
+  background: white;
+  color: var(--color);
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 87px;
+  z-index: 2;
+}
+
+.oss9 {
+  padding-bottom: 8px;
+}
+
+/* second overlay screen */
+
+.oss10,
+.oss13 {
+  background-color: var(--color);
+  z-index: 1;
+  position: absolute;
+  height: 650px;
+  width: 600px;
+  border-radius: 35px;
+  margin: -30px;
+  padding: 30px;
+  opacity: 0;
+  animation: fadeIn 0.66s forwards ease-in;
+}
+
+.oss12 {
+  /* border: 2px solid white; */
+
+  font-size: 19px;
+  line-height: 1.4211026316;
+  font-weight: 600;
+  letter-spacing: 0.012em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color: white;
+  margin: auto;
+  width: 40vw;
+  margin-top: 290px;
+}
+
+.oss13 {
+  opacity: 0;
+  animation: fadeOut 0.66s forwards ease-out;
+  pointer-events: none;
+}
+
+.oss14 {
+  background-color: var(--color);
+  z-index: 1;
+  position: absolute;
+  height: 650px;
+  width: 600px;
+  border-radius: 35px;
+  margin: -30px;
+  padding: 30px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

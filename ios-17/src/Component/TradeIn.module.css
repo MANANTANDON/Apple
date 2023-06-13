@@ -1,0 +1,204 @@
+:root {
+  --ti--color1: rgb(245, 245, 247);
+  --ti--color2: #86868b;
+  --ti--color3: #06c;
+}
+
+.trade hr {
+  border: 0.5px solid var(--ti--color2);
+  opacity: 0.3;
+}
+
+/* this is for centering a div*/
+.ti0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.ti1 {
+  border: 2px solid var(--ti--color1);
+  width: 980px;
+  height: 508px;
+  margin: auto;
+  /* margin-top: 156.5px; */
+  border-radius: 15px;
+  background-color: var(--ti--color1);
+
+  display: flex;
+  flex-direction: row;
+}
+
+.ti2,
+.ti3 {
+  width: 490px;
+  /* border: 2px solid orange; */
+}
+
+.ti4 {
+  /* border: 2px solid green; */
+  margin: auto;
+  width: 350px;
+  height: 350px;
+  margin-top: 70px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.ti5 {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  color: var(--ti--color2);
+
+  /* border: 2px solid green; */
+}
+
+.ti6 {
+  color: black;
+}
+
+.ti7 {
+  margin-top: 50px;
+}
+
+.ti8 {
+  /* border: 2px solid orangered; */
+  display: flex;
+}
+
+.ti9,
+.ti10 {
+  width: 80%;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  color: var(--ti--color2);
+}
+
+.ti9 {
+  display: flex;
+  align-items: flex-end;
+  height: 30px;
+}
+
+.ti10 {
+  display: flex;
+  align-items: flex-end;
+  height: 30px;
+  width: 25%;
+  text-align: right;
+}
+
+.ti11 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4px;
+  /* border: 2px solid green; */
+}
+
+.ti12 {
+  /* border: 2px solid orange; */
+  width: 258px;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  color: #1d1d1f;
+  font-style: normal;
+}
+
+.ti13 {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.ti14 {
+  /* border: 2px solid green; */
+  margin-top: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  color: var(--ti--color3);
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+
+.ti14:hover {
+  text-decoration: underline;
+}
+
+.ti17 button {
+  margin-top: 20px;
+  background: #006edb;
+  color: #fff;
+  border-color: transparent;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  padding: 11px 21px;
+
+  border-radius: 980px;
+  cursor: pointer;
+}
+
+.ti17 button:hover {
+  background: #0077ed;
+}
+
+/* Media Query */
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+  .ti1 {
+    width: 880px;
+    height: 508px;
+  }
+}
+
+@media (max-width: 931px) {
+  .ti1 {
+    width: 740px;
+    height: 508px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ti1 {
+    width: 580px;
+    height: 508px;
+  }
+}
+
+@media (max-width: 606px) {
+  .ti1 {
+    width: 480px;
+    height: 508px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ti1 {
+    width: 380px;
+    height: 508px;
+  }
+}

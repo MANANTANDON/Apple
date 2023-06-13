@@ -1,0 +1,185 @@
+.a1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.a2 {
+  /* border: 2px solid green; */
+  padding: 12px;
+  display: flex;
+  place-content: center;
+
+  font-size: 14px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #1d1d1f;
+  font-style: normal;
+}
+
+.a14 {
+  color: #06c;
+  cursor: pointer;
+}
+
+.a14:hover {
+  text-decoration: underline;
+}
+
+.a3,
+.a4,
+.a5 {
+  /* border: 2px solid yellowgreen; */
+  height: 650px;
+  width: 100vw;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.a3 {
+  background-image: url("../Assets/macbook_air_15.jpeg");
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+.a4 {
+  height: 736px;
+  background-image: url("../Assets/apple_vision_pro.jpeg");
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+.a5 {
+  height: 680px;
+  background-image: url("../Assets/iphone14pro.jpeg");
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+
+.a6,
+.a15,
+.a17,
+.a25 {
+  /* border: 2px solid black; */
+  height: fit-content;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.a7 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.a8,
+.a26 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.a9 {
+  font-size: 1.5rem;
+  height: 50px;
+  display: flex;
+  place-content: center;
+  align-items: flex-end;
+  color: #86868b;
+  /* border: 2px solid green; */
+}
+
+.a10,
+.a19 {
+  /* border: 2px solid black; */
+  width: 350px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  color: #06c;
+  place-content: center;
+  font-size: 1.2rem;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.a11,
+.a12 {
+  /* border: 2px solid salmon; */
+  display: flex;
+  flex-direction: row;
+}
+
+.a11:hover,
+.a12:hover {
+  text-decoration: underline;
+}
+
+.a13,
+.a16,
+.a18 {
+  border: 2px solid rgb(251, 251, 251);
+  display: flex;
+  place-content: center;
+  align-items: flex-end;
+}
+
+.a15 {
+  margin-top: 510px;
+}
+
+.a16 {
+  border: 2px solid rgb(238, 229, 230);
+}
+
+.a17 {
+  /* border: 2px solid white; */
+  color: white;
+}
+.a18 {
+  border: 2px solid black;
+}
+
+.a20 {
+  /* border: 2px solid salmon; */
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  place-content: center;
+}
+
+.a21,
+.a22,
+.a23,
+.a24 {
+  /* border: 2px solid greenyellow; */
+
+  width: 694px;
+  height: 580px;
+  background-image: url("../Assets/mac_studio.jpeg");
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+
+.a22 {
+  /* border: 2px solid pink; */
+  background-image: url("../Assets/mac_pro.jpeg");
+}
+.a23 {
+  background-image: url("../Assets//tradein.jpeg");
+}
+.a24 {
+  background-image: url("../Assets/apple_watch_series_8.jpeg");
+}
+
+.a26 {
+  color: whitesmoke;
+}
